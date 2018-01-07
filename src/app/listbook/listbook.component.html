@@ -1,0 +1,13 @@
+<p>
+  listbook works!
+</p>
+<ul>
+  <li class="listbook" *ngFor="let book of BOOKS">
+    <div class="book">
+      <a href="{{book.url}}">{{book.name}}</a>
+      <br>
+      <img width="80" src="{{book.img}}" alt="{{book.url}}">
+      
+    </div>
+  </li>
+</ul>
