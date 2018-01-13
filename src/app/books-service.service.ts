@@ -9,7 +9,7 @@ import { Book } from './Books';
 
 @Injectable()
 export class BooksServiceService {
-  private books_Url = "http://localhost:19921/data";
+  private books_Url = "localhost:19921/data";
   constructor(
     private http: HttpClient
   ) { }
