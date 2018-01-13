@@ -9,7 +9,7 @@ import { Book } from './Books';
 
 @Injectable()
 export class BooksServiceService {
-  private books_Url = "http://www.oxygenbubble.xyz/api_mybook/index.php/MyBooks/getBooks";
+  private books_Url = "http://localhost:19921";
   constructor(
     private http: HttpClient
   ) { }
